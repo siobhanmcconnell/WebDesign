@@ -1,12 +1,26 @@
 body {
-  background-color: powderblue;
+  background-color: seashell;
 }
 h1 {
   padding: 35px;
   text-align: center;
-  background-color: snow;
+  background-color: lightsalmon;
 }
 
-h2, p {
+h2 {
   text-align: center;
+  padding: 35px;
+}
+
+h4, p {
+max-width: 58%;
+margin: 0 auto;
+}
+
+h3 {
+  text-align: center;
+  font-style: italic;
+  padding: 20px;
+  max-width: 70%;
+  margin: 0 auto;
 }
