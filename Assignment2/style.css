@@ -45,7 +45,7 @@ footer {
 
 .chapter-heading {
   margin-bottom: 50px;
-  padding-bottom: 10px;
+  font-size: 14pt;
 }
 
 .second-heading {
@@ -55,11 +55,11 @@ footer {
 }
 
 h1 {
-  padding-top: 40px;
+  padding-top: 55px;
   padding-bottom: 20px;
   text-align: center;
   background-color: #e9775a;
-  font-size: 50px;
+  font-size: 60px;
   margin-bottom: 0px;
 }
 
@@ -69,7 +69,7 @@ h2 {
   
   margin-bottom: 20px;
   margin-top: 0px;
-  font-size: 27px;
+  font-size: 29px;
   color: #501704;
   background-color: #e9775a;
   
@@ -87,7 +87,7 @@ p {
 h3 {
   text-align: center;
   font-style: italic;
-  font-size: 21px;
+  font-size: 22px;
   max-width: 65%;
   margin: 0 auto;
   margin-bottom: 8px;
@@ -103,7 +103,7 @@ h5 {
   text-align: center;
   font-size: 100px;
   margin-top: 40px;
-  color: #e6b588;
+  color: #e9775a;
   margin-bottom: 60px;
 }
 
