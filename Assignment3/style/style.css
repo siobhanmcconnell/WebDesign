@@ -134,12 +134,12 @@ img {
 
 
 form {
-  background-color: #f9f7f1; /* soft, warm background */
-  padding: 20px; /* space inside the form */
-  border-radius: 10px; /* smooth, rounded corners */
-  border: 1px solid #476a6f; /* light gray border */
-  width: 75%; /* controls how wide it is */
-  margin: 0 auto; /* centers the form on the page */
+  background-color: #f9f7f1;
+  padding: 20px; 
+  border-radius: 10px; 
+  border: 3px solid #476a6f; 
+  width: 75%; 
+  margin: 0 auto; 
 }
 fieldset {
   border: none;
@@ -153,8 +153,8 @@ legend {
 }
 
 label {
-  display: block; /* forces the label to be on its own line */
-  margin-top: 15px; /* adds space above each new form field */
+  display: block; 
+  margin-top: 15px; 
   font-weight: bold;
 }
 
@@ -193,24 +193,24 @@ button:hover {
 
 
 table {
-  width: 78%; /* makes the table a bit narrower than full-width */
-  margin: 0 auto; /* centers the table horizontally */
-  margin-bottom: 30px; /* adds space below the table */
-  background-color: #fdfdfd; /* soft background for readability */
-  border: 1px solid #ccc; /* light gray outer border */
-  border-radius: 4px; /* slightly rounded corners */
+  width: 78%; 
+  margin: 0 auto; 
+  margin-bottom: 30px; 
+  background-color: #fdfdfd; 
+  border: 3px solid #476a6f; 
+  border-radius: 4px; 
 }
 
 th, td {
-  padding: 12px; /* adds space inside each cell */
-  border: 1px solid #ccc; /* gives all cells a light border */
-  text-align: left; /* aligns content to the left for easier reading */
+  padding: 12px; 
+  border: 1px solid #ccc; 
+  text-align: left; 
 }
 
 th {
-  background-color: #476a6f; /* light gray background for contrast */
-  font-weight: bold; /* makes header text stand out */
-  color: #fdfdfd; /* a warm brown color for an elegant touch */
+  background-color: #476a6f; 
+  font-weight: bold; 
+  color: #fdfdfd; 
 }
 
 
@@ -221,17 +221,21 @@ th {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 10px; /* spacing between images */
+  gap: 10px;
   max-width: 900px; 
   margin: 0 auto;
-  row-gap: 10px; /* vertical spacing */
-  column-gap: 10px; /* horizontal spacing */
+  row-gap: 10px; 
+  column-gap: 10px; 
   margin-top: 30px;
+  background-color: #fdfdfd40;
+  border: solid 10px #ffbe8666;
 }
 
 #gallery img {
   width: calc(33.333% - 10px);
   height: auto;
+  padding-bottom: 0px;
+  border: solid 1px #fff;
 }
 
 
@@ -280,4 +284,13 @@ video {
   padding-top: 20px;
   padding-bottom: 0px;
   color:#f9f7f1;
+}
+
+
+.boxtext {
+
+  background-color: #ffbe8632;
+  margin-top: 50px;
+  margin-right: 22%;
+  margin-left: 22%;
 }
