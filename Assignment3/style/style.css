@@ -1,0 +1,283 @@
+.im-fell-great-primer-regular {
+  font-family: "IM Fell Great Primer", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.im-fell-great-primer-regular-italic {
+  font-family: "IM Fell Great Primer", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+
+
+body {
+  background-color: #d7f0fc;
+  font-family: "IM Fell Great Primer", serif ;
+}
+
+header {
+    border: 7px solid #653239;
+    text-align: center;
+    background-color:#ffbe86;;
+}
+
+nav {
+  background-color: #d7f0fc;
+  font-size: 21px;
+  padding-bottom: 1px;
+  padding-top: 1px;
+  color: #653239;
+
+}
+
+a:link {
+  color: #653239;
+}
+a:visited {
+  color: #653239;
+}
+a:hover {
+color: #ffbe86;
+}
+
+li {
+    list-style: none;
+    color: #501537;
+    display: inline-block;
+    font-family: Georgia, serif;
+}
+
+div {
+  padding: 5px;
+  color: #2f0b00;
+}
+
+footer {
+  text-align: center;
+  color:#ac996c
+}
+
+
+
+.second-heading {
+  text-align: left;
+  padding-left: 10%;
+  font-size: larger;
+  margin-top: 20px;
+
+}
+
+.chapter-heading{
+  text-align: center;
+  font-size: x-large;
+  color: #653239;
+}
+
+.chapter-title{
+  font-size: larger;
+}
+
+h1 {
+  text-align: center;
+  background-color: #ffbe86;
+  font-size: 60px;
+  margin-bottom: 0px;
+  color: #653239;
+}
+
+h2 {
+  text-align: center;
+  padding-bottom: 20px;
+  
+  margin-bottom: 20px;
+  margin-top: 0px;
+  font-size: 29px;
+}
+
+h4, p {
+max-width: 80%;
+margin: 0 auto;
+}
+
+p {
+  margin-bottom: 20px;
+}
+
+
+hr {
+  max-width: 33%;
+  margin-bottom: 20px;
+}
+
+h5 {
+  text-align: center;
+  font-size: 100px;
+  margin-top: 40px;
+  color: #653239;
+  margin-bottom: 60px;
+}
+
+img {
+  display: block;
+  max-width: 300px;
+  margin: auto;
+  padding-bottom: 25px;
+
+}
+
+
+
+
+
+
+
+form {
+  background-color: #f9f7f1; /* soft, warm background */
+  padding: 20px; /* space inside the form */
+  border-radius: 10px; /* smooth, rounded corners */
+  border: 1px solid #476a6f; /* light gray border */
+  width: 75%; /* controls how wide it is */
+  margin: 0 auto; /* centers the form on the page */
+}
+fieldset {
+  border: none;
+  padding: 0;
+}
+
+legend {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+label {
+  display: block; /* forces the label to be on its own line */
+  margin-top: 15px; /* adds space above each new form field */
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+ select {
+        width: 69%;
+        margin: 0 auto;
+        padding: 8px;
+        margin-top: 5px;
+        font-size: 1rem;
+        border: 1px solid #aaa;
+        border-radius: 5px;
+        box-sizing: border-box;
+    }
+
+
+  button {
+  margin-top: 20px;
+  background-color: #653239;
+  color: white;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #ffbe86;
+}
+
+
+
+
+
+
+table {
+  width: 78%; /* makes the table a bit narrower than full-width */
+  margin: 0 auto; /* centers the table horizontally */
+  margin-bottom: 30px; /* adds space below the table */
+  background-color: #fdfdfd; /* soft background for readability */
+  border: 1px solid #ccc; /* light gray outer border */
+  border-radius: 4px; /* slightly rounded corners */
+}
+
+th, td {
+  padding: 12px; /* adds space inside each cell */
+  border: 1px solid #ccc; /* gives all cells a light border */
+  text-align: left; /* aligns content to the left for easier reading */
+}
+
+th {
+  background-color: #476a6f; /* light gray background for contrast */
+  font-weight: bold; /* makes header text stand out */
+  color: #fdfdfd; /* a warm brown color for an elegant touch */
+}
+
+
+
+
+
+#gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px; /* spacing between images */
+  max-width: 900px; 
+  margin: 0 auto;
+  row-gap: 10px; /* vertical spacing */
+  column-gap: 10px; /* horizontal spacing */
+  margin-top: 30px;
+}
+
+#gallery img {
+  width: calc(33.333% - 10px);
+  height: auto;
+}
+
+
+
+
+
+@media (max-width: 600px) {
+
+  body {
+  font-size: 14px;
+  padding: 10px;
+}
+
+li {
+  display: block;
+  margin: 10px 0; 
+}
+
+nav {
+  text-align: center;
+}
+
+header, footer {
+  padding: 10px; 
+}
+}
+
+
+
+
+video {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+#quotation {
+  font-size: larger;
+  background-image: linear-gradient(to right, #f0f0f0ea, #e0e0e073) ;
+  border: 2px solid #ccc;
+  border-radius: 12px;
+  box-shadow: 4px 4px 8px rgba(74, 24, 24, 0.2);
+}
+
+#title2 {
+  background-color: #476a6f;
+  padding-top: 20px;
+  padding-bottom: 0px;
+  color:#f9f7f1;
+}
