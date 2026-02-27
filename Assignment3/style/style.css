@@ -72,11 +72,12 @@ footer {
 .chapter-heading{
   text-align: center;
   font-size: x-large;
-  color: #653239;
+
 }
 
 .chapter-title{
   font-size: larger;
+  color:#653239
 }
 
 h1 {
@@ -97,7 +98,7 @@ h2 {
 }
 
 h4, p {
-max-width: 80%;
+max-width: 98%;
 margin: 0 auto;
 }
 
@@ -113,10 +114,10 @@ hr {
 
 h5 {
   text-align: center;
-  font-size: 100px;
-  margin-top: 40px;
+  font-size: 70px;
+  margin-top: 2px;
   color: #653239;
-  margin-bottom: 60px;
+  margin-bottom: 2px;
 }
 
 img {
@@ -125,6 +126,18 @@ img {
   margin: auto;
   padding-bottom: 25px;
 
+}
+
+/*background of first page boxes*/
+.light-background {
+  display: block;
+  margin:auto;
+  background-color: #fdfdfdbd;
+  width: 80%;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  border-left: 5px solid #653239;
+  border-right: 5px solid #653239;
 }
 
 
@@ -267,16 +280,28 @@ header, footer {
 
 
 video {
-  width: 100%;
-  margin-bottom: 10px;
+  width: 80%;
+  display: block;
+  margin:auto;
+  border-left: 2px solid #cccccc;
+  border-right: 2px solid #cccccc;
+  border-bottom: 2px solid #cccccc;
+  border-radius: 5px;
+
 }
+
+/*quote on first page*/
 
 #quotation {
   font-size: larger;
-  background-image: linear-gradient(to right, #f0f0f0ea, #e0e0e073) ;
-  border: 2px solid #ccc;
+  background-image: linear-gradient(to top, #b3d8ef6e, #ffffff23) ;
+  border: 2px solid #cccccc;
   border-radius: 12px;
   box-shadow: 4px 4px 8px rgba(74, 24, 24, 0.2);
+  width: 60%;
+  display: block;
+  margin: auto;
+  margin-top: 25px;
 }
 
 #title2 {
@@ -285,12 +310,26 @@ video {
   padding-bottom: 0px;
   color:#f9f7f1;
 }
+/* background box on About and Info page */
 
+.boxtext { 
 
-.boxtext {
-
-  background-color: #ffbe8632;
+  background-color: #fdfdfd9e;
   margin-top: 50px;
   margin-right: 22%;
   margin-left: 22%;
+  border-left: 5px solid #653239;
+  border-right: 5px solid #653239;
+  box-shadow: 4px 4px 8px rgba(74, 24, 24, 0.2);
 }
+
+.flower {
+  display: block;
+  text-align: center;
+  margin-top: 10px;
+  font-size: x-large;
+  color: #653239;
+  letter-spacing: 3px;
+
+}
+
