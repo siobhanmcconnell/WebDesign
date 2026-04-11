@@ -217,19 +217,21 @@ a:visited{
 .card-section{
   display: flex;
   justify-content: space-between;
+  gap: 30px;
 }
 
 .page-wrapper {
-  max-width: 800px;
+  max-width: 1000px;
   margin: 0 auto;
-  padding: 20px;
+  padding: 10px;
 }
+
 
 .featured-section {
   display: grid;
   grid-template-columns: 1fr 2fr;
   grid-template-rows: auto auto;
-  gap: 10px;
+  gap: 30px;
   align-items: start;
 }
 
@@ -244,6 +246,11 @@ gap: 20px;
   margin: 0;
   padding: 10px 0;
   gap: 10px;
+}
+.hero img{
+  display: block;
+  width: 800px;
+  margin: auto;
 }
 
 .featured-section .blog-preview img {
@@ -271,6 +278,8 @@ font-size: 0.5rem;
 .featured-section .read-more {
 margin-top: 0px !important; 
 }
+
+
 
 
 @media (max-width: 600px) {

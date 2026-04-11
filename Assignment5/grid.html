@@ -3,16 +3,42 @@
 <head>
     <meta charset="UTF-8">
     <title>Grid</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="style/style.css">
 </head>
 <body>
   <div class="page-wrapper">
-   <div class="nav-container">
-  <div class="index-link"><a href="index.html">Home</a></div>
-  <div class="flex-link"><a href="flexbox.html">Flexbox</a></div>
-  <div class="grid-link"><a href="grid.html">Grid</a></div>
-  <div class="blog-link"><a href="blog-post.html">Blog Post</a></div>
-</div>
+   <nav>
+   <nav class="navbar navbar-expand-lg sticky-top bg-dark" data-bs-theme="dark">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">🪷</a>
+    <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"></button>
+      
+    <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0 align-items-end">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">Contact</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">About</a>
+        </li>
+         <li class="nav-item">
+          <a class="nav-link" href="grid.html">Grid</a>
+        </li>
+      </ul>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
 <header>Grid Example</header>
 
 <div class="featured-section">
@@ -122,6 +148,7 @@
     </div>
 
     </div>
+  </div>
 <div class="right-column">
     <div class="hero">
 
@@ -143,6 +170,7 @@
 </div>
   </div>
 </div>
+
 <div class="gallery">
   <div class="item">Here's a box</div>
   <div class="item"><img src="images/single-flower.jpg" alt = "a pink flower"></div>
@@ -181,5 +209,7 @@
   </ul>
 </footer>
   </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
