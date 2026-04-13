@@ -221,7 +221,7 @@ a:visited{
 }
 
 .page-wrapper {
-  max-width: 1000px;
+  max-width: 1200px;
   margin: 0 auto;
   padding: 10px;
 }
@@ -282,7 +282,6 @@ margin-top: 0px !important;
 .carousel-item img {
   max-height: 680px;
   object-fit: cover;
-  width: 100%;
 }
 
 
