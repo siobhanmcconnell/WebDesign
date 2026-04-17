@@ -285,6 +285,78 @@ margin-top: 0px !important;
 }
 
 
+.review-section{
+  display: grid;
+ grid-template-columns: 1fr 1fr 1fr 1fr;
+ column-gap: 60px;
+ padding-bottom: 40px;
+
+}
+
+.review-box{
+  display: grid;
+  background-color: #71557a;
+  border:2px solid #d183a9;
+  border-radius: 15px;
+  text-align: center;
+  font-size: large;
+}
+
+.review-title{
+  text-align: center;
+  color: gainsboro;
+  padding-bottom: 20px;
+}
+
+
+.review-section2{
+  display: flex;
+  flex-direction: row;
+}
+
+.little-box-section{
+  display: flex;
+  justify-content: start;
+  gap: 30px;
+}
+.review-subtitle{
+  color: #d183a9;
+}
+.little-review-box{
+  padding-right: 20px;
+  background-color: #71557a;
+  border:2px solid #d183a9;
+  border-radius: 15px;
+  text-align: center;
+  height: 70px;
+}
+
+.review-section2 img{
+  width: 600px;
+  margin-left: auto;
+  display: grid;
+  padding-bottom: 40px;
+}
+
+.vertical-flex{
+  display: flex;
+  flex-direction: column;
+}
+
+.review-text{
+  color: gainsboro;
+  padding-right: 20px;
+}
+
+.extra-text{
+  color: gainsboro;
+  text-align: center;
+}
+.extra-text img{
+  padding-bottom: 40px;
+}
+
+
 
 
 @media (max-width: 600px) {
