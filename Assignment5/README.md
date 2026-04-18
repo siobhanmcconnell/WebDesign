@@ -1,1 +1,1 @@
-I liked how flexbox and grid made it simple to make changes to layout. It was frustrating that changing the placement of one thing could disrupt the layout of everything else, so it was nice that there was a way to add a little more adaptability to the overall structure of the site. I think it will make editing a lot faster. I think I prefer the grid so far. For me, how the properties affected things was just a little more intuitive with that one.
+I think I'm doing fairly well. I don't think I need anything. 
