@@ -1,1 +1,1 @@
-I think I'm doing fairly well. I don't think I need anything. 
+I think I'm doing fairly well. The component I chose to recreate was a bit more difficult for me than I had anticipated, and I think my code may be a bit messy or inefficient for that section, but the end result looks pretty similar to what I was going for, so I've decided not to worry about it too much. I don't think I need anything. 
