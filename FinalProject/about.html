@@ -1,0 +1,105 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>About</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alata&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+   <div class="page-wrapper">
+   <nav>
+   <nav class="navbar navbar-expand-lg sticky-top" style="background-color: #626B2E;">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">🪷</a>
+    <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"></button>
+      
+    <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0 align-items-end">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Home</a>
+        </li>
+         <li class="nav-item">
+          <a class="nav-link" href="grid.html">Projects</a>
+        </li>
+         <li class="nav-item">
+          <a class="nav-link" href="flexbox.html">Blog</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" style="color: #CEBA59;" href="about.html">About</a>
+        </li>
+      </ul>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
+        <button class="btn btn-outline-light" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+
+
+
+<main>
+
+  <section class="about-banner" 
+         style="background-image: url('images/yarn9.jpg');">
+  <div class="about-banner-overlay">
+    <div class="about-banner-content">
+      <h1>About</h1>
+    </div>
+  </div>
+</section>
+
+<div id="about-break-top"></div>
+<div class="about-section">
+<img src="images/yarn1.jpg">
+<div class="about-textsection">
+<h1>Hello</h1>
+
+<div class="about-text1">
+  <h3>My name is Siobhan</h3>
+  <p>I'm a student at the University of Montana. I started crocheting in 2024, and I've loved it ever since. I started by learning how to make amigurumi, which 
+    is still what I gravitate towards. I'm starting to branch into clothing, but I tend to get too impatient to finish anything. 
+    But no matter what I make, I always have fun, so it's my goal to introduce as many people to crochet as possible.
+  </p>
+</div>
+</div>
+</div>
+</div>
+<div class="about-break"></div>
+<div class="page-wrapper">
+
+<div class="about-section2">
+<div class="about-textsection2">
+<h1>Other Resources</h1>
+<p>*put info here</p>
+</div>
+<img src="images/yarn2.jpg">
+</div>
+</main>
+
+
+ <footer class="footer">
+  <div class="social-icons">
+    <img src="images/X_Logo.svg" alt="X logo">
+    <img src="images/Instagram_Logo.svg" alt="Instagram logo">
+    <img src="images/YouTube_Logo.svg" alt="YouTube logo">
+    <img src="images/LinkedIn_Logo.svg" alt="LinkedIn logo">
+  </div>
+
+ <footer>
+       <p>&copy; <span id="year"></span> Siobhan McConnell</p>
+
+    </footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
