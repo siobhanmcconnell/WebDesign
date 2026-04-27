@@ -515,8 +515,8 @@ margin-top: 0px !important;
 }
 
 .about-break{
-  background-color: #839EA8;
-  padding: 60px;
+  background-color: #E0C39D;
+  padding: 50px;
 }
 
 #about-break-top{
@@ -526,6 +526,7 @@ margin-top: 0px !important;
 
 .about-section img{
   max-width: 500px;
+  padding-bottom: 20px;
 }
 
 .about-section {
@@ -535,7 +536,6 @@ margin-top: 0px !important;
 
 .about-section2 {
   display: flex;
-  justify-content: flex-end;
 
 }
 
@@ -547,6 +547,7 @@ margin-top: 0px !important;
 .about-textsection2{
   padding-right: 20px;
   padding-top: 20px;
+  justify-content: flex-start;
 }
 
 .about-textsection h1, h3{
@@ -562,7 +563,9 @@ margin-top: 0px !important;
 }
 
 .about-section2 img{
-  max-width: 500px;}
+  max-width: 500px;
+padding-top: 20px;
+}
 
 @media (max-width: 600px) {
    .card-section{
