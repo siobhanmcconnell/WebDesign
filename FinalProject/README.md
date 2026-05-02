@@ -15,40 +15,39 @@
 
 ---
 
-## [Page Name]
+## Projects Page
 
-**Goal:** 
+**Goal:** Highlight featured content
 
 ### Structure
-- **Navigation:**  
-- **Hero / Intro:**  
-- **Main Content:**  
-- **Supporting Content (optional):**  
+- **Navigation:**  Logo (left), primary links (right)
+- **Hero:** Large image to guide eye to featured projects
+- **Main Content:**  image cards with captions; 3 cards linking to different projects with short preview
+- **Supporting Content (optional):**  Blog list in sidebar;
 - **Call-to-Action:**  
 - **Footer:**  
 
 ---
 
-## [Page Name]
+## Blog Page
 
-**Goal:** 
+**Goal:** Provide space where past and current content can easily be found and accessed
 
 ### Structure
-- **Navigation:**  
-- **Hero / Intro:**  
-- **Main Content:**  
-- **Supporting Content (optional):**  
-- **Call-to-Action:**  
+- **Navigation:**  Logo (left), primary links (right)
+- **Hero:**  Parallax image with title text
+- **Main Content:** Blog previews; Preview Image on left, brief text description with date and title on right; Horizontal bar separating title
+- **Call-to-Action:** Read more link 
 - **Footer:**  
 
 ---
 
-## [Page Name]
+## About Page
 
-**Goal:** 
+**Goal:** Provide additional information about the site
 
 ### Structure
-- **Navigation:**  
+- **Navigation:**  Logo (left), primary links (right)
 - **Hero / Intro:**  
 - **Main Content:**  
 - **Supporting Content (optional):**  
