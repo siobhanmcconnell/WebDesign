@@ -23,9 +23,9 @@
 - **Navigation:**  Logo (left), primary links (right)
 - **Hero:** Large image to guide eye to featured projects
 - **Main Content:**  image cards with captions; 3 cards linking to different projects with short preview
-- **Supporting Content (optional):**  Blog list in sidebar;
-- **Call-to-Action:**  
-- **Footer:**  
+- **Supporting Content (optional):**  Blog list in sidebar with short previews
+- **Call-to-Action:**  "Let's go" link in card section
+- **Footer:**  social icons (left), page links (right), copyright
 
 ---
 
@@ -35,10 +35,10 @@
 
 ### Structure
 - **Navigation:**  Logo (left), primary links (right)
-- **Hero:**  Parallax image with title text
+- **Hero:**  Parallax image, semi-transparent dark overlay, text overlay
 - **Main Content:** Blog previews; Preview Image on left, brief text description with date and title on right; Horizontal bar separating title
 - **Call-to-Action:** Read more link 
-- **Footer:**  
+- **Footer:**  social icons (left), page links (right), copyright
 
 ---
 
@@ -48,8 +48,8 @@
 
 ### Structure
 - **Navigation:**  Logo (left), primary links (right)
-- **Hero / Intro:**  
-- **Main Content:**  
-- **Supporting Content (optional):**  
+- **Hero:** Full-viewport image, semi-transparent dark overlay, text overlay
+- **Main Content:** About the author section; image left, text right
+- **Supporting Content (optional):**  Other resources section; text left, image right
 - **Call-to-Action:**  
-- **Footer:**
+- **Footer:** social icons (left), page links (right), copyright
