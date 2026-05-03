@@ -6,12 +6,12 @@
 
 ### Structure
 - **Navigation:** Logo (left), primary links (right)  
-- **Hero:** Full-viewport image, semi-transparent dark overlay, text overlay  
-- **Lead-in:** blockquote, “There are always flowers for those who want to see them.” — Henri Matisse  
-- **Main Content:** 12-image gallery; alternating 2-image and 3-image groupings; hover overlays with captions  
-- **Supporting Content:** Client logos for “featured in” section 
-- **Call-to-Action:** "Work with Me" section with profile image (left), short prompt and form (right)
-- **Footer:** Social icons (right), auto-updating copyright (center)  
+- **Carousel Image:** 
+- **Lead-in:** header with title 
+- **Main Content:** Blog preview; Crochet challenge cards
+- **Supporting Content:** Welcome section; text left, image right
+- **Call-to-Action:** "Join our list" section with sign up button that triggers pop-up (below)
+- **Footer:** social icons (left), page links (right), copyright
 
 ---
 
@@ -21,6 +21,7 @@
 
 ### Structure
 - **Navigation:**  Logo (left), primary links (right)
+- **Page Title**
 - **Hero:** Large image to guide eye to featured projects
 - **Main Content:**  image cards with captions; 3 cards linking to different projects with short preview
 - **Supporting Content (optional):**  Blog list in sidebar with short previews
@@ -37,7 +38,6 @@
 - **Navigation:**  Logo (left), primary links (right)
 - **Hero:**  Parallax image, semi-transparent dark overlay, text overlay
 - **Main Content:** Blog previews; Preview Image on left, brief text description with date and title on right; Horizontal bar separating title
-- **Call-to-Action:** Read more link 
 - **Footer:**  social icons (left), page links (right), copyright
 
 ---
@@ -50,6 +50,5 @@
 - **Navigation:**  Logo (left), primary links (right)
 - **Hero:** Full-viewport image, semi-transparent dark overlay, text overlay
 - **Main Content:** About the author section; image left, text right
-- **Supporting Content (optional):**  Other resources section; text left, image right
-- **Call-to-Action:**  
+- **Supporting Content (optional):**  Other resources section; text left, image right 
 - **Footer:** social icons (left), page links (right), copyright
